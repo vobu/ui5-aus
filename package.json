@@ -1,0 +1,12 @@
+{
+  "name": "ui5-aus",
+  "version": "1.0.0",
+  "description": "repo for UI5 masterclass at MasteringSAP, Melbourne",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Volker Buzek <volker.buzek@js-soft.com>",
+  "license": "ISC",
+  "workspaces": ["packages/*"]
+}
