@@ -8,8 +8,8 @@ import formatter from "../model/formatter";
 export default class Main extends BaseController {
 	private formatter = formatter;
 
-	sayHello() : void {
-		MessageBox.show("Hello World!");
+	sayHello(): void {
+		this.uiModelData.clicks++;
 	}
 
 	onAddTableItem(): void {

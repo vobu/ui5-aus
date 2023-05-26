@@ -9,9 +9,14 @@
 		showNavButton="false">
 		<content>
 			<VBox>
-				<HBox>
+				<HBox alignItems="Center"
+					justifyContent="Center">
 					<webc:Button text="{i18n>btnText}"
 						click="sayHello" />
+					<Text text=" how many times? → "
+						renderWhitespace="true" />
+					<webc:Input type="Number"
+						value="{viewModel>/clicks}" />
 				</HBox>
 				<macros:Table metaPath="@com.sap.vocabularies.UI.v1.LineItem"
 					id="macroTable"
