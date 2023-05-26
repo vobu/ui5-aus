@@ -9,6 +9,7 @@ framework:
     - name: sap.m
     - name: sap.ui.core
     - name: sap.ui.unified
+    - name: sap.ui.webc.main
     - name: themelib_sap_horizon
 builder:
   customTasks:
@@ -31,3 +32,5 @@ server:
       mountPath: /beershop
       configuration:
         baseUri: "http://localhost:4004/beershop"
+
+

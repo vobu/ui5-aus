@@ -47,6 +47,7 @@
 				"sap.ui.core": {},
 				"sap.ui.layout": {},
 				"sap.ui.unified": {},
+				"sap.ui.webc.main": {},
 				"sap.m": {}
 			}
 		},
@@ -75,6 +76,7 @@
 				}
 			}
 		},
+
 
 		"routing": {
 			"config": {
