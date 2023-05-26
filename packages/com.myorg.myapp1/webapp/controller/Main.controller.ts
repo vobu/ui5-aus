@@ -1,4 +1,3 @@
-import MessageBox from "sap/m/MessageBox";
 import BaseController from "./BaseController";
 import formatter from "../model/formatter";
 
@@ -13,10 +12,15 @@ export default class Main extends BaseController {
 	}
 
 	onAddTableItem(): void {
-        this.getView().byId("macroTable").getAggregation("content").getAggregation("_content").getBinding("items").create({
-            FirstName: "Peter",
-            LastName: "Parker"
-        })
-    }
-
+		this.getView()
+			.byId("macroTable")
+			.getAggregation("content")
+			.getAggregation("_content")
+			.getBinding("items")
+			.create({
+				name: "Little Creature's Pale Ale",
+                ibu: 15,
+                abv: 4.7
+			});
+	}
 }

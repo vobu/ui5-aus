@@ -20,7 +20,7 @@
 				</HBox>
 				<macros:Table metaPath="@com.sap.vocabularies.UI.v1.LineItem"
 					id="macroTable"
-					rowPress=".onRowPressed" />
+					rowPress=".onAddTableItem" />
 			</VBox>
 		</content>
 	</Page>
