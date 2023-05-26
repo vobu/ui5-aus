@@ -1,0 +1,15 @@
+{
+  "generator-ui5-ts-app-aus": {
+    "application": "myapp1",
+    "namespace": "com.myorg",
+    "framework": "SAPUI5",
+    "frameworkVersion": "1.114.0",
+    "author": "Volker Buzek",
+    "initrepo": false,
+    "tstypes": "@sapui5/types",
+    "tstypesVersion": "1.114.0",
+    "appId": "com.myorg.myapp1",
+    "appURI": "com/myorg/myapp1",
+    "setupCompleted": true
+  }
+}
