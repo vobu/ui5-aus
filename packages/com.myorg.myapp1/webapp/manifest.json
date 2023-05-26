@@ -17,6 +17,10 @@
         "settings": {
           "odataVersion": "4.0"
         }
+      },
+      "viewModel": {
+        "type": "JSON",
+        "uri": "./model/viewModel.json"
       }
     }
   },
@@ -76,6 +80,12 @@
           "operationMode": "Server",
           "autoExpandSelect": true,
           "earlyRequests": true
+        }
+      },
+      "viewModel": {
+        "dataSource": "viewModel",
+        "settings": {
+          "observe": true
         }
       }
     },
