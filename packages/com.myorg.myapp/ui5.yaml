@@ -26,3 +26,8 @@ server:
         *transpileConfig
     - name: ui5-middleware-livereload
       afterMiddleware: compression
+    - name: ui5-middleware-simpleproxy
+      afterMiddleware: compression
+      mountPath: /beershop
+      configuration:
+        baseUri: "http://localhost:4004/beershop"
