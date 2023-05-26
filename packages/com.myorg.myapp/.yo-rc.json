@@ -1,0 +1,15 @@
+{
+  "generator-ui5-ts-app": {
+    "application": "myapp",
+    "namespace": "com.myorg",
+    "framework": "OpenUI5",
+    "frameworkVersion": "1.114.0",
+    "author": "Volker Buzek",
+    "initrepo": false,
+    "tstypes": "@openui5/types",
+    "tstypesVersion": "1.114.0",
+    "appId": "com.myorg.myapp",
+    "appURI": "com/myorg/myapp",
+    "setupCompleted": true
+  }
+}
