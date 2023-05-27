@@ -12,7 +12,7 @@
     "ts-typecheck": "tsc --noEmit",
     "lint": "eslint webapp",
     "test": "npm run lint",
-    "wdi5": "wdio run ./wdio.conf.ts"
+    "wdi5": "wdio run ./wdio.conf.ts --autoCompileOpts.tsNodeOpts.project=test/tsconfig.json"
   },
   "devDependencies": {
     "@openui5/ts-types-esm": "^1.114.0",
