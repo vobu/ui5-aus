@@ -10,5 +10,6 @@
       "wdio-ui5-service/dist"
     ],
     "target": "es2019"
-  }
+  },
+  "include": ["../*.conf.ts"]
 }
