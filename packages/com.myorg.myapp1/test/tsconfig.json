@@ -11,5 +11,8 @@
     ],
     "target": "es2019"
   },
-  "include": ["../*.conf.ts"]
+  "include": [
+    "./**/*",
+    "../*.conf.ts"
+  ]
 }
