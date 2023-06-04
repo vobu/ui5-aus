@@ -1,7 +1,4 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
-
-import { WDI5Control } from "wdio-ui5-service/dist/lib/wdi5-control"
-
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 describe("suite name", () => {
   it("test description", async () => {

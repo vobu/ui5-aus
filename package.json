@@ -8,5 +8,10 @@
   },
   "author": "Volker Buzek <volker.buzek@js-soft.com>",
   "license": "ISC",
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "reveal.js": "^4.5.0"
+  }
 }
