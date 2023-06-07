@@ -10,7 +10,7 @@
     "strictPropertyInitialization": false,
     "rootDir": "./webapp",
     "baseUrl": "./",
-    "typeRoots": ["./node_modules/@types", "./node_modules/@openui5/types"],
+    "typeRoots": ["../../node_modules/@types", "../../node_modules/@openui5/types"],
     "paths": {
       "com/myorg/myapp/*": ["./webapp/*"]
     }
